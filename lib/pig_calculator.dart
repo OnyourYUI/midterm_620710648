@@ -136,7 +136,6 @@ class pig_calculator extends StatelessWidget {
                             title: const Text("ERROR"),
                             content: const Text("Invalid input"),
                             actions: [
-                              // ปุ่ม OK ใน dialog
                               TextButton(
                                 child: const Text('OK'),
                                 onPressed: () {
@@ -166,7 +165,6 @@ class pig_calculator extends StatelessWidget {
                                 .round()} - ${Toler_p_max
                                 .round()} Baht'),
                             actions: [
-                              // ปุ่ม OK ใน dialog
                               TextButton(
                                 child: const Text('OK'),
                                 onPressed: () {
